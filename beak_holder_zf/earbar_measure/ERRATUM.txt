@@ -1,0 +1,4 @@
+The dimensions read by the caliper are off, at least for the square_side. 
+Probably due to an offset in the zeroing of the instrument that would apply to all other measures, so be careful.
+The proper measures for the squared section of the earbar are 6.1 mm, not 6.0.
+
