@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "HSCDLNN001PDAA3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-16-08:36:54)
+    (mountForm default
+        (footprintRef "HSCDLNN001PDAA3")
+        (spec "System")
+    )
+)

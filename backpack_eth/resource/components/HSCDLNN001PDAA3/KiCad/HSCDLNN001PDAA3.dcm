@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HSCDLNN001PDAA3
+D Board Mount Pressure Sensors DIP,Sing Ax Brblss Differential, 3.3V
+K
+F https://sensing.honeywell.com/honeywell-sensing-trustability-hsc-series-high-accuracy-board-mount-pressure-sensors-50099148-a-en.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Honeywell
+PartNumber=HSCDLNN001PDAA3
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2021-06-16 08:36:54
+Downloaded=2022-03-04 22:51:31
+3D=Y

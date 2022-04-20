@@ -1,0 +1,149 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "HSCDLNN001PDAA3"
+   (description "Board Mount Pressure Sensors DIP,Sing Ax Brblss Differential, 3.3V")
+   (family "ANA")
+   (package "HSCDLNN001PDAA3")
+   (attribute "Datasheet Link" "https://sensing.honeywell.com/honeywell-sensing-trustability-hsc-series-high-accuracy-board-mount-pressure-sensors-50099148-a-en.pdf")
+   (attribute "Geometry.Height" "13.75mm")
+   (attribute "On Line Components Part Number" "")
+   (attribute "On Line Components Price/Stock" "")
+   (attribute "Manufacturer_Name" "Honeywell")
+   (attribute "Manufacturer_Part_Number" "HSCDLNN001PDAA3")
+   (gate
+    (symbol "HSCDLNN001PDAA3")
+    (pin "NC_1" 1 PS)
+    (pin "VSUPPLY" 2 PS)
+    (pin "VOUT" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "NC_2" 5 PS)
+    (pin "NC_3" 6 PS)
+    (pin "NC_4" 7 PS)
+    (pin "NC_5" 8 PS)
+   )
+  )
+  (symbol "HSCDLNN001PDAA3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "HSCDLNN001PDAA3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.19 -0.11)
+      (pt 8.81 -0.11)
+      (pt 8.81 13.19)
+      (pt -1.19 13.19)
+      (pt -1.19 -0.11))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.19 14.741)
+      (pt 9.81 14.741)
+      (pt 9.81 -1.661)
+      (pt -2.19 -1.661)
+      (pt -2.19 14.741))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 -1.2)
+      (arc (pt 0.000 -1.200) (pt -0.050 -1.200) (pt 0.050 -1.100) (start 180.0) (sweep -90.0))
+      (pt 0 -1.1)
+      (arc (pt 0.000 -1.100) (pt -0.050 -1.200) (pt 0.050 -1.100) (start 180.0) (sweep 90.0))
+      (pt 0 -1.2)
+      (arc (pt 0.000 -1.200) (pt -0.050 -1.200) (pt 0.050 -1.100) (start 180.0) (sweep -90.0))
+      (pt 0 -1.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.19 13.19)
+      (pt -1.19 -0.11))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 8.81 -0.11)
+      (pt 8.81 13.19))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg 4 (pt 7.620 0.000) (padstack 0))
+   (leg 5 (pt 7.620 13.080) (padstack 0))
+   (leg 6 (pt 5.080 13.080) (padstack 0))
+   (leg 7 (pt 2.540 13.080) (padstack 0))
+   (leg 8 (pt 0.000 13.080) (padstack 0))
+   (padstack 0
+    (hole 0.813)
+    (plated true)
+    (pad (layer TCOP) (round 1.321))
+    (pad (layer INNER) (round 1.321))
+    (pad (layer BCOP) (round 1.321))
+   )
+   (model "HSCDLNN001PDAA3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

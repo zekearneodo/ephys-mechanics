@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HSCDLNN001PDAA3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ON_LINE_COMPONENTS_PART_NUMBER", "ON_LINE_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Honeywell", "HSCDLNN001PDAA3" (!) = "", "HSCDLNN001PDAA3", "Other", "", "", "Board Mount Pressure Sensors DIP,Sing Ax Brblss Differential, 3.3V", "https://sensing.honeywell.com/honeywell-sensing-trustability-hsc-series-high-accuracy-board-mount-pressure-sensors-50099148-a-en.pdf", "13.75 mm"
+END_PART
+
+END.
